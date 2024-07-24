@@ -1,0 +1,124 @@
+body {
+  background-image: url(img/background-img.jpg); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+.container {
+  flex: 1;
+  position: relative;
+  background: rgba(254 , 254, 254, 0.18);
+  padding: 40px;
+  min-width: 400px;
+  max-width: 620px;
+  border-radius: 15px;
+  border: 2px solid rgba(254 , 254, 254, 0.5);
+  }
+@media only screen and (max-width: 600px) {
+  .container {
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 1s;
+  }
+  .gamil-addr {
+    font-size: 12px;
+    transition: 0.5s;
+  }
+  }
+}
+.head {
+  height: 350px;
+}
+.img-head-box {
+  height: 180px;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(254 , 254, 254, 1);
+  overflow: hidden;
+}
+.img-head {
+  width: 100%;
+}
+.profile {
+  position: absolute;
+  top: 145px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 2px solid rgba(254 , 254, 254, 1);
+}
+.img-profile {
+  width: 100%;
+  object-fit: cover;
+}
+.heading {
+  margin-top: 100px;
+  color: #fff;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.heading h4 {
+  opacity: 0.8;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+ul {
+  margin-top: 0px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  display: block;
+  padding: 0 30px;
+  height: 60px;
+  line-height: 60px;
+  text-transform: capitalize;
+  border-radius: 8px;
+  transition:  0.4s 0.01s ease-out;
+}
+ul li:hover a {
+  color: #333;
+  background: #fff;
+  transition:  0 ease-out;
+}
+ul li a i{
+  scale: 1.3;
+  display: inline-block;
+  margin-right: 20px;
+}
